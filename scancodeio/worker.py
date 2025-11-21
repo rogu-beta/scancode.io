@@ -21,6 +21,7 @@
 # Visit https://github.com/aboutcode-org/scancode.io for support and download.
 
 from django.apps import apps
+from django.db import connection
 
 from rq.queue import Queue
 from rq.worker import Worker
